@@ -30,14 +30,16 @@ This tool is intended to support two distinct workflows:
 - testnet validation, where you can create throwaway wallets and verify the full deploy/mint flow safely
 - mainnet execution, where you should use a real owner wallet and a real recipient list supplied by the end user or your production process
 
-The project is fully open source and implemented by FollowDragons, 2026.
+This project is open-source software developed by FollowDragons and released under the MIT License.
 
 If you want to contribute changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+If you are using a coding agent in this repository, see [AGENTS.md](AGENTS.md).
 
 ## Final Project Structure
 
 ```text
 .
+|-- AGENTS.md
 |-- CONTRIBUTING.md
 |-- .env
 |-- .env.example
@@ -475,6 +477,10 @@ Examples:
 
 ## Test Metadata Example
 
+The CLI only stores metadata URLs on-chain.
+It does not upload or host JSON metadata files.
+You must host collection metadata and item metadata yourself so the URLs are reachable over the web.
+
 For smoke testing:
 
 ```env
@@ -567,6 +573,8 @@ Recommended production practice:
 
 - `COLLECTION_METADATA_URL` should point to one collection JSON document
 - `ITEMS_BASE_URL` may be either a common prefix or one concrete metadata file
+- metadata URLs should be publicly reachable over HTTP or HTTPS at mint time
+- this project does not host metadata files or provide storage for them
 - item suffixes should be deterministic and documented when prefix mode is used
 - for smoke tests, either `ITEM_METADATA_SUFFIX` may point every token to one known file or `ITEMS_BASE_URL` may point directly to one file
 - for production, prefer a suffix strategy that maps clearly to item indices or business identifiers
@@ -725,6 +733,7 @@ After successful completion, the CLI prints a `Next` block explaining the most l
 - the directory is ignored by git
 - do not publish these files into a public repository
 - do not treat generated test wallets as production user wallets
+- do not commit `.env`, `wallets.txt`, `generated_wallets/`, recipient lists, mnemonic phrases, or API keys
 
 ## License
 

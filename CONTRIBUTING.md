@@ -69,7 +69,7 @@ Then open a Pull Request from your fork into:
 ## Expectations
 
 - Keep all user-facing documentation and comments in English.
-- Do not commit `.env`, `wallets.txt`, generated wallets, or secrets.
+- Do not commit `.env`, `wallets.txt`, `generated_wallets/`, recipient lists, or secrets.
 - Keep changes focused and reviewable.
 - Preserve the documented CLI behavior unless the change intentionally updates the public interface.
 - Update tests and documentation when behavior changes.
