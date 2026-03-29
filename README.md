@@ -32,10 +32,13 @@ This tool is intended to support two distinct workflows:
 
 The project is fully open source and implemented by FollowDragons, 2026.
 
+If you want to contribute changes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## Final Project Structure
 
 ```text
 .
+|-- CONTRIBUTING.md
 |-- .env
 |-- .env.example
 |-- .gitignore
@@ -726,7 +729,7 @@ After successful completion, the CLI prints a `Next` block explaining the most l
 ## License
 
 This project is licensed under the MIT License.
-See [LICENSE](d:/TON/SBT%20Minting/LICENSE).
+See [LICENSE](LICENSE).
 
 ## References
 
